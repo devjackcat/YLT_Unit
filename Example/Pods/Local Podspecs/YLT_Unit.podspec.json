@@ -18,5 +18,31 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YLT_Unit/Classes/**/*"
+  "source_files": "YLT_Unit/Classes/**/*",
+  "dependencies": {
+    "YLT_BaseLib": [
+
+    ],
+    "YLT_Kit": [
+
+    ],
+    "YLT_Crypto": [
+
+    ],
+    "RegexKitLite": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ],
+    "ZipArchive": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  }
 }

@@ -39,4 +39,14 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+s.dependency 'YLT_BaseLib'
+s.dependency 'YLT_Kit'
+s.dependency 'YLT_Crypto'
+s.dependency 'RegexKitLite'
+s.dependency 'SDCycleScrollView'
+s.dependency 'ZipArchive'
+s.dependency 'MJRefresh'
+s.dependency 'MJExtension'
+
 end

@@ -1,10 +1,62 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - FastCoding (3.3)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YLT_Unit (0.1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.16)
+  - MJRefresh (3.1.16)
+  - ReactiveObjC (3.1.1)
+  - RegexKitLite (4.0)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.0.2):
+    - SDWebImage/Core (= 5.0.2)
+  - SDWebImage/Core (5.0.2)
+  - YLT_BaseLib (0.3.41):
+    - FastCoding
+    - FMDB
+    - MJExtension
+  - YLT_Crypto (0.0.3)
+  - YLT_Kit (0.3.28):
+    - AFNetworking
+    - Aspects
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+    - YLT_BaseLib
+  - YLT_Unit (0.1.0):
+    - MJExtension
+    - MJRefresh
+    - RegexKitLite
+    - SDCycleScrollView
+    - YLT_BaseLib
+    - YLT_Crypto
+    - YLT_Kit
+    - ZipArchive
+  - ZipArchive (1.4.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,15 +64,45 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Aspects
+    - FastCoding
     - FBSnapshotTestCase
+    - FMDB
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - RegexKitLite
+    - SDCycleScrollView
+    - SDWebImage
+    - YLT_BaseLib
+    - YLT_Crypto
+    - YLT_Kit
+    - ZipArchive
 
 EXTERNAL SOURCES:
   YLT_Unit:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  FastCoding: 3b590f7143a229780fa744b35084d85d9461587e
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YLT_Unit: a27395dcea43abb6defd899c66bcb3311e0a5d91
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  YLT_BaseLib: 2133f61f5115712d943bf13c493478531c7b2bba
+  YLT_Crypto: 3d7dceec11f4a3046f58b4852092d68e4c37ab4e
+  YLT_Kit: 92ab5c3a6a422fcdf020a09e657d0a5ca248da14
+  YLT_Unit: a30bbb02e8381bb53dcf8b242534e392854bb064
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
 PODFILE CHECKSUM: cbe04b461940f7968a0ab4e010e855f4ef79d93c
 
