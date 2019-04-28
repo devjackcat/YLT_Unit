@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YLT_Unit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YLT_Unit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YLT_Unit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YLT_Unit: a27395dcea43abb6defd899c66bcb3311e0a5d91
+
+PODFILE CHECKSUM: cbe04b461940f7968a0ab4e010e855f4ef79d93c
+
+COCOAPODS: 1.5.3

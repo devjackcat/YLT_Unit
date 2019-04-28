@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YLT_Unit_Example' do
+  pod 'YLT_Unit', :path => '../'
+
+  target 'YLT_Unit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
